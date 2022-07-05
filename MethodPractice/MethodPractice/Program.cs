@@ -1,5 +1,5 @@
 ﻿// Exercise 1
-/*
+
 Console.WriteLine("What is your name?");
 var yourName = Console.ReadLine();
 
@@ -17,6 +17,7 @@ Console.WriteLine($" Hello, {yourName} and welcome to this exercise. I see you l
     $"the color {favoriteColor}, maybe if you had a {favoriteColor} " +
     $"{favoriteAnimal} you wouldn\'t feel lonely " +
     $"and need to listen to {band} to cope with your sadness.");
+
 // Exercise 2
 
 static int Addition(int x, int y)
@@ -52,7 +53,7 @@ static int Subtraction(int thingOne, int thingTwo)
 
 int answerThree = Subtraction(0, 0);
 Console.WriteLine($"Your answer for subtractions is: {answerThree}");
-*/
+
 static int AddSeveralNumbers(params int[] numbers)
 {
     int total = 0;
